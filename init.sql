@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS gerenciador_contatos;
+USE gerenciador_contatos;
+
+CREATE TABLE IF NOT EXISTS contatos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    telefone VARCHAR(50) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
