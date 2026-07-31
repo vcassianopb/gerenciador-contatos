@@ -2,7 +2,7 @@
 
 API RESTful desenvolvida em Node.js com Express e MySQL para gerenciamento de contatos.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Node.js
 - Express
@@ -10,12 +10,12 @@ API RESTful desenvolvida em Node.js com Express e MySQL para gerenciamento de co
 - Docker
 - dotenv
 
-## 📌 Requisitos Prévios
+## Requisitos Prévios
 
 - Node.js (v18 ou superior)
 - Docker (ou uma instância local do MySQL)
 
-## ⚙️ Configuração do Ambiente
+## Configuração do Ambiente
 
 1. Clone o repositório:
 git clone https://github.com/vcassianopb/gerenciador-contatos.git
@@ -32,7 +32,7 @@ DB_PASSWORD=root
 DB_NAME=gerenciador_contatos
 DB_PORT=3306
 
-## 🛢️ Banco de Dados
+## Banco de Dados
 
 Suba o container do MySQL utilizando o Docker:
 
@@ -46,7 +46,7 @@ docker exec -i mysql-teste mysql -uroot -proot gerenciador_contatos < init.sql
 - No Windows (PowerShell):
 Get-Content init.sql | docker exec -i mysql-teste mysql -uroot -proot gerenciador_contatos
 
-## ▶️ Executando a Aplicação
+## Executando a Aplicação
 
 Para iniciar o servidor em modo de desenvolvimento com auto-reload:
 
@@ -54,7 +54,7 @@ npm run dev
 
 A aplicação estará disponível em http://localhost:3000.
 
-## 🛠️ Endpoints da API
+## Endpoints da API
 
 ### POST /contatos
 Cria um novo contato.
